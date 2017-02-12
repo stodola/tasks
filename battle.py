@@ -28,7 +28,12 @@ def battle(soldier_list):
   
 
 def summer(list_numbers):
-    ''' This function takes as argument list of tuples i.e. ('min', 7). First element in tuple is a string which contains information, whether the second element has to be added to result ('plus') or subtracted from result ('min'). Function returns sum of second elements of tuple with proper sign.''' 
+    ''' This function takes as argument list of tuples i.e. ('min', 7). 
+        First element in tuple is a string which contains information, 
+        whether the second element has to be added to result ('plus') or 
+        subtracted from result ('min'). 
+        Function returns sum of second elements of tuple with proper sign.
+    ''' 
 
     result = 0
     for sign, number in list_numbers:

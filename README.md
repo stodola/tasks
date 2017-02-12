@@ -10,9 +10,9 @@ Solution: minimum_effort.py
 
 This task was harder than the first one.
 
-Firstly I thought i will have to use backtracking, but I very fast realized it is unnecessary, because I have to check all solutions anyways.
+Firstly I thought I will have to use backtracking, but I very fast realized it is unnecessary, because I have to check all solutions anyways.
 
-So I wrote an algorithm that uses simple recursion file: additions/recursive_solution.py.
+So I wrote an algorithm that uses simple recursion, file: additions/recursive_solution.py.
 
 The computation complexity of this algorithm is O(2^N). Check picture plot1.png in additions to see run times of bigger tables, code: additions/timing_recursive.py.
 
